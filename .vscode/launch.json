@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/06-escopos-de-variaveis",
-      "program": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/06-escopos-de-variaveis/build/Debug/outDebug",
+      "cwd": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/08-strings",
+      "program": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/08-strings/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
