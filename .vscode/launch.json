@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/09-pointers",
-      "program": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/09-pointers/build/Debug/outDebug",
+      "cwd": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/09-ponteiros",
+      "program": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/09-ponteiros/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
