@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/",
-      "program": "c:/build/Debug/outDebug",
+      "cwd": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp",
+      "program": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
