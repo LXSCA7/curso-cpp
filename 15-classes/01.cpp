@@ -7,14 +7,7 @@ public:
     int numero;
     double saldo;
 
-    double depositar(double quantidade) {
-        if (quantidade > 0) {
-            saldo += quantidade;
-        } else {
-            cout << "erro: utilize apenas valores validos" << endl;
-        }
-        return saldo;
-    }
+    double depositar(double quantidade);
 
     double retirar(double quantidade) {
         if (quantidade > 0 && saldo >= quantidade) 
@@ -25,15 +18,21 @@ public:
     }
 };
 
-int main() {
-    Conta c;
+double Conta::depositar(double quantidade) {
+        if (quantidade > 0) {
+            saldo += quantidade;
+        } else {
+            cout << "erro: utilize apenas valores validos" << endl;
+        }
+        return saldo;
+    }
 
-    c.numero = 1;
-    c.saldo = 100.75;
+int main() {
+    Conta c = {1, 100.75};
 
     cout << "saldo = " << c.saldo << endl;
     
-    cout << "saldo = " << c.depositar(-50) << endl;
+    cout << "saldo = " << c.depositar(150) << endl;
     
     cout << "saldo = " << c.retirar(200) << endl;
     return 0;
