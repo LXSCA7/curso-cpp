@@ -32,3 +32,5 @@ int main() {
     for (int j : lista)
         cout << j << " ";
 }
+
+
