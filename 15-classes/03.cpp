@@ -79,7 +79,6 @@ int main(int argc, char const *argv[]) {
     }
 
     cout << "seu saldo = " << contas[sua_conta].pegaSaldo() << endl;
-    
     valor = valorTransferir();
     outra_conta = contaTransferir();
 
@@ -92,7 +91,6 @@ int main(int argc, char const *argv[]) {
     contas[sua_conta].transferencia(contas[outra_conta], valor);
 
     cout << "\nTRANSFERENCIA REALIZADA\n\n";
-
     cout << "seu saldo apos a transferencia: " << contas[sua_conta].pegaSaldo() << endl;
     cout << "outro saldo: " << contas[outra_conta].pegaSaldo() << endl;
 }
