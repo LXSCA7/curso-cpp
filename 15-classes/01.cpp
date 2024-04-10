@@ -16,6 +16,10 @@ public:
             cout << "erro: voce nao possui esse valor na conta" << endl;
         return saldo;
     }
+
+    double getSaldo() {
+        return saldo;
+    }
 };
 
 double Conta::depositar(double quantidade) {
@@ -27,13 +31,18 @@ double Conta::depositar(double quantidade) {
         return saldo;
     }
 
-int main() {
-    Conta c = {1, 100.75};
+Conta *novaConta(int numero) {
+    Conta *c = new Conta;
+    c-> numero = numero;
+    c-> saldo = 0.0;
+    return c;
+}
 
-    cout << "saldo = " << c.saldo << endl;
-    
-    cout << "saldo = " << c.depositar(150) << endl;
-    
-    cout << "saldo = " << c.retirar(200) << endl;
+int main() {
+    Conta *c = novaConta(1111);
+
+    c-> depositar(1000);
+    cout << "depositando 1000" << endl;
+    cout << "saldo: " << c->getSaldo();
     return 0;
 }
