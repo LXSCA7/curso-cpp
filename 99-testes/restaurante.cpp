@@ -95,6 +95,6 @@ int main(int argc, char const *argv[])
         
     } while (esc == 'S' || esc == 's');
 
-    cout << "Valor total - R$ " << clientes.valor_total << ".\n";
+    cout << "Valor total - R$ " << clientes.valor_total << "\n";
     return 0;
 }
