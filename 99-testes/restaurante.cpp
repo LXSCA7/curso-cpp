@@ -25,7 +25,7 @@ public:
                 char nome_do_prato[100];
                 strcpy(nome_do_prato, pratos_pedidos[i]->nome);
                 nome_do_prato[0] = toupper(nome_do_prato[0]);
-                cout << "Pedido: " << nome_do_prato << " - R$ " << pratos_pedidos[i]->valor << endl;
+                cout << "Pedido: " << nome_do_prato << " - R$ " << pratos_pedidos[i]->valor << endl << endl;
                 valor_total += pratos_pedidos[i]->valor;
                 return valor_total;
             }
@@ -43,7 +43,6 @@ public:
         }
         cout << "\n";
     }
-
 };
 
 int main(int argc, char const *argv[])
@@ -64,6 +63,7 @@ int main(int argc, char const *argv[])
 
     cout << "Insira sua mesa: ";
     cin >> clientes.mesa;
+    cout << endl;
 
     // setando os pratos
     for (int i = 0; i < TOTAL_PRATOS; i++) {
