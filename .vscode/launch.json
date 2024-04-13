@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/99-testes",
-      "program": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/99-testes/build/Debug/outDebug",
+      "cwd": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/99-poo-testes",
+      "program": "c:/Users/Pichau/Documents/_cursos/cpp/curso-cpp/99-poo-testes/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

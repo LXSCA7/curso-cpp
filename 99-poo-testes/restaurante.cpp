@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#define TOTAL_PRATOS 6
+#define TOTAL_PRATOS 7
 
 using namespace std;
 
@@ -57,8 +57,9 @@ int main(int argc, char const *argv[])
         {"sorvete", 10.00},
         {"milkshake", 7.99},
         {"batata", 4.49},
+        {"frango", 15.5},
     };
-
+    // 
     Cliente clientes;
 
     cout << "Insira sua mesa: ";
